@@ -2,8 +2,8 @@
 label: Data
 hide_body: true
 fields:
-- name: footer_text
+- name: text
   type: text
   config:
     required: false
-  label: Footer text
+  label: Text

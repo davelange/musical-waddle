@@ -1,6 +1,8 @@
 ---
 title: Something else
 date: 2021-03-17T00:00:00.000+00:00
+excerpt: 'Apparently we had reached a great height in the atmosphere, for the sky
+  was a dead black, and the stars had ceased to twinkle. '
 
 ---
 Something else here. So much content, as far as the eye can see!

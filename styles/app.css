@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+:root {
+    --offblack: #333;
+    --accent: #fcbf4e;
+}
+
+body {
+    font-family: 'Noto Serif', Arial, sans-serif;
+    color: var(--offblack);
+}
+.container {
+    width: 60%;
+    margin: auto;
+}

@@ -3,8 +3,7 @@ import ArticleCard from "./ArticleCard"
 function ArticleListing({articles}) {
 
     return (
-        <div>
-            <h3>Our latest articles</h3>
+        <div>            
             { articles.map( (article, i) => 
                 <ArticleCard 
                     article={article} 

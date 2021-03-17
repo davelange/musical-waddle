@@ -1,0 +1,12 @@
+.navlist {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 3rem 0;
+}
+.navlist li {
+    margin-right: 2rem;
+}
+.navlist a {
+    color: var(--offblack);
+}

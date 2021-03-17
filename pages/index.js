@@ -1,15 +1,17 @@
-import ArticleListing from '../components/ArticleListing'
 import {getPosts} from '../lib/api'
+import ArticleListing from '../components/ArticleListing'   
+import Hero from '../components/Hero';
 
 function Home({articles}) {
     
     return (
-        <>
-            <h1>Musical waddle</h1>
+        <div className="container">                                 
+
+            <Hero />
 
             <ArticleListing 
                 articles={articles} />
-        </>
+        </div>
     )
 }
 

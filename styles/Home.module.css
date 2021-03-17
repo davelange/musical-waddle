@@ -1,0 +1,21 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+}
+.hero_half {
+    width: 40%;
+}
+.hero h1 {
+    font-size: 8rem;
+    color: var(--accent);
+    text-align: right;    
+    margin: 0 0 2rem;    
+    text-decoration: underline;
+    position: relative;
+    right: -20%;
+}
+.hero img {
+    max-width: 26vw;
+}

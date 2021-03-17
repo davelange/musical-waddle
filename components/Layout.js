@@ -1,11 +1,9 @@
-import Header from './Header'
 import Nav from './Nav'
 
 function Layout({children}) {
     return (
         <div>            
-            <Header />
-            <Nav />
+            <Nav />            
             {children}
         </div>
     )

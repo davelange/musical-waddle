@@ -1,3 +1,5 @@
+import '../styles/normalize.css'
+import '../styles/app.css'
 import Layout from "../components/Layout"
 
 function MyApp({Component, pageProps}) {

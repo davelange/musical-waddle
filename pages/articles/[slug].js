@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 function article({data, content}) {
     
     return (
-        <div>
+        <div className="container">
             <h1>{data.title}</h1>
             <ReactMarkdown source={content} />
         </div>

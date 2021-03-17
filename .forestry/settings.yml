@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _data
+  label: Meta
+  create: all
+  match: "**/*"
+  new_doc_ext: ".json"
+  templates:
+  - data
 - type: heading
   label: Content
 - type: directory

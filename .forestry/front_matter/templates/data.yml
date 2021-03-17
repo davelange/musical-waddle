@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Text
+pages:
+- _data/Tagline.json

@@ -16,6 +16,15 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
 pages:
 - articles/hello-there.md
 - articles/on-quicksand.md

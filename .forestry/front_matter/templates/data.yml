@@ -8,5 +8,4 @@ fields:
     required: false
   label: Text
 pages:
-- _data/Tagline.json
 - _data/footer.json

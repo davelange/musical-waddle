@@ -20,9 +20,14 @@ sections:
   match: "**/*"
 - type: heading
   label: Data
-- type: document
+- type: directory
   path: _data
-  label: Data
+  label: Meta
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - data
 upload_dir: public/media
 public_path: public/media
 front_matter_path: ''

@@ -7,5 +7,3 @@ fields:
   config:
     required: false
   label: Text
-pages:
-- _data/Footer text.md

@@ -2,14 +2,23 @@
 
 :root {
     --offblack: #333;
+    --grey: #777;
     --accent: #fcbf4e;
 }
-
+html {
+    min-height: 100vh;
+}
 body {
     font-family: 'Noto Serif', Arial, sans-serif;
-    color: var(--offblack);
+    color: var(--offblack);    
+    border: 10px solid var(--accent);        
+    min-height: 100vh;
+}
+p {
+    line-height: 1.5;
 }
 .container {
-    width: 60%;
+    width: 50%;
     margin: auto;
+    flex: 1;
 }

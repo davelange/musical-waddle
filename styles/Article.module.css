@@ -1,5 +1,5 @@
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
     display: table;
     z-index: 1;
@@ -7,7 +7,7 @@
 .title::before {
     content: "";
     display: block;
-    height: 1rem;    
+    height: .75rem;    
     background: var(--accent);
     position: absolute;
     z-index: -1;
@@ -27,5 +27,13 @@
     100% {
         width: 98%;
         opacity: 1;
+    }
+}
+@media screen and (min-width: 40em) {
+    .title {
+        font-size: 3rem;
+    }   
+    .title::before {
+        height: 1rem;
     }
 }

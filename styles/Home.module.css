@@ -3,19 +3,34 @@
     display: flex;
     flex-wrap: wrap;    
     align-items: center;
+    width: 100%;
 }
 .hero_half {
-    width: 40%;
+    width: 50%;
+    margin: 0;
 }
 .hero h1 {
-    font-size: 8rem;
+    font-size: 3rem;
     color: var(--accent);
     text-align: right;    
     margin: 0 0 2rem;    
-    text-decoration: underline;
     position: relative;
-    right: -20%;
+    right: 5%;
+    padding-right: 0;
+    text-decoration: underline;        
 }
 .hero img {
-    max-width: 26vw;
+    width: 90%;
+}
+@media screen and (min-width: 40em) {
+    .hero_half {
+        width: 50%;
+    }
+    .hero h1 {
+        font-size: 8rem;
+        right: -20%;
+    }   
+    .hero img {
+        max-width: 26vw;
+    }
 }

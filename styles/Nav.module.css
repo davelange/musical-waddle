@@ -3,10 +3,16 @@
     list-style: none;
     padding: 0;
     margin: 3rem 0;
-}
-.navlist li {
-    margin-right: 2rem;
+    justify-content: space-evenly;
 }
 .navlist a {
     color: var(--offblack);
+}
+@media screen and (min-width: 40em) {
+    .navlist {
+        justify-content: center;
+    }
+    .navlist li {
+        margin-right: 2rem;
+    }
 }

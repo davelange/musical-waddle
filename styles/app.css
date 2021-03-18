@@ -11,14 +11,26 @@ html {
 body {
     font-family: 'Noto Serif', Arial, sans-serif;
     color: var(--offblack);    
-    border: 10px solid var(--accent);        
+    border: 6px solid var(--accent);        
     min-height: 100vh;
 }
 p {
     line-height: 1.5;
 }
+img {
+    max-width: 100%;
+}
 .container {
-    width: 50%;
-    margin: auto;
-    flex: 1;
+    width: 90%;    
+    margin: auto;    
+}
+@media screen and (min-width: 40em) {
+    body {
+        border-width: 10px;
+    }
+    .container {
+        width: 50%;
+        margin: auto;
+        flex: 1;
+    }
 }

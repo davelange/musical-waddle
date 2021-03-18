@@ -27,5 +27,6 @@ fields:
   label: Excerpt
 pages:
 - articles/hello-there.md
+- articles/neutral-yet-friendly-grotesque.md
 - articles/on-quicksand.md
 - articles/something-else.md
